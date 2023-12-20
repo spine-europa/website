@@ -11,3 +11,41 @@
     object-fit: cover;
     width: 100%;
 }
+
+h2.fw-bolder {
+    font-size: 2.3rem;
+}
+
+.custom-page-link, .custom-heading-primary {
+    color: #0d6efd !important;
+}
+
+.bi-24-custom-size {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .custom-img {
+        margin-bottom: 20px;
+    }
+
+    .custom-gallery-row {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .footer-col {
+        margin-top: 20px;
+    }
+
+    .mobile-padding > div {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
